@@ -8,6 +8,8 @@ class MaxMinTest(unittest.TestCase):
     """docstring for MaxMinTest"""
 
     def test_find_max_min_four(self):
+        # assertListEqual - compares two lists if equal
+        
         self.assertListEqual([1, 4],
                              findMaxMin([1, 2, 3, 4]),
                              msg='should return [1,4] for [1, 2, 3, 4]')
