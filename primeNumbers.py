@@ -34,4 +34,6 @@ def isprime(n):
 
     return True
     
-print(isprime(2))
+    # test code here
+print(isprime(2)) # True
+print(isprime(-1)) # False
