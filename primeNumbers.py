@@ -16,7 +16,7 @@ def isprime(n):
 
     # 0 and 1 are not primes
     if n < 2:
-        return False
+        return []
 
     # 2 is the only even prime number
     if n == 2: 
