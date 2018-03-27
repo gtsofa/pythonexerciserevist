@@ -6,7 +6,7 @@
 alist = []
 for i in range(2,10):
   alist.append(i**2)
-  print(alist)
+print(alist)
   
 # using list comprehensions
 alist = [i**2 for i in range(2,10)]
