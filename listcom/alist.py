@@ -9,5 +9,6 @@ for i in range(2,10):
 print(alist)
   
 # using list comprehensions
+# FYI: Just remember the syntax: [ expression for item in list if conditional ]
 alist = [i**2 for i in range(2,10)]
 print(alist)
